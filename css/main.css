@@ -1,0 +1,113 @@
+main {
+  background: #e5e5e5;
+}
+.conteiner-cd {
+  display: flex;
+  justify-content: space-between;
+}
+.item-cd {
+  display: flex;
+  align-items: center;
+  margin: 176px 0px 32px;
+  width: 31%;
+  height: 189px;
+  background: #1391ce;
+  box-shadow: 15px 10px 15px rgb(31 100 133 / 10%);
+  border-radius: 8px;
+}
+.item-cd p {
+  padding: 0px 34px 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Roboto-bold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.item-cd:hover {
+  background-color: #14274c;
+}
+.conteiner .bn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bn p {
+  margin: 32px 0px 15px;
+  width: 387px;
+  font-family: "Inter-light", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1391ce;
+  text-align: center;
+}
+.underline {
+  margin-bottom: 60px;
+  width: 160px;
+  height: 8px;
+  background: #f7ba0e;
+  text-align: center;
+}
+.bn {
+  margin-left: 370px;
+  margin-top: -50px;
+}
+.bnt {
+  margin-left: 480px;
+  margin-top: -30px;
+}
+.conteiner-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#id .iteem {
+  width: 45%;
+}
+.iteem h3 {
+  margin: 60px 0px 8px;
+  font-family: "Inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #25468a;
+}
+.iteem h1 {
+  margin: 8px 0px 16px;
+  font-family: "Inter-bold", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1391ce;
+}
+.iteem p {
+  margin: 16px 0px 12px;
+  font-family: "Inter-regular", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4f4f4f;
+}
+.iteem img {
+  margin: 60px 0px 100px;
+  width: 500px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.iteem h4 {
+  margin: 12px 0px 18px;
+  font-family: "Inter-bold", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #1391ce;
+}
+.conteiner-main ul {
+  list-style-image: url(../images/pt.png);
+}
+.conteiner-main li {
+  font-family: "Inter-regular", sans-serif;
+  text-align: left;
+  margin: 6px 96px 5px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
